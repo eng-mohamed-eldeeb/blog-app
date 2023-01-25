@@ -12,9 +12,11 @@
 .pagination-item.no-hover .pagination-button { cursor: default; }
 .link { color: #4691f6; text-decoration: underline; transition: all 0.5s ease; }
 .link:hover { text-decoration: none; }
+
 .link:active,
 .link:hover { color: #2ec866; }
 .absolute-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
 .ui-avatar__img,
 .ui-avatar__initials { border-radius: 50%; vertical-align: middle; }
 .ui-avatar__initials { position: relative; display: inline-block; box-sizing: border-box; padding: 10px; color: #fff; font-weight: 700; }

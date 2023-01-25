@@ -1,7 +1,9 @@
 .dropdown,
 .dropdown-handle { display: inline-block; }
 .dropdown-handle { cursor: pointer; }
+
 .dropdown-body,
 .dropdown-menu { display: none; }
+
 .dropdown.open .dropdown-body,
 .dropdown.open .dropdown-menu { display: block; }

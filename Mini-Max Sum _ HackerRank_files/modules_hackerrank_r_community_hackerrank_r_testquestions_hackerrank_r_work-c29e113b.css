@@ -4,11 +4,13 @@
 .accordion__button.ui-btn .ui-btn-icon { margin-right: 10px; font-size: 1em; transition: transform 0.3s ease; }
 .accordion__button.accordion__button--open.ui-btn .ui-btn-icon { transform: rotate(-180deg); }
 .ui-radio { display: inline-block; margin-right: 10px; vertical-align: middle; }
+
 .ui-radio,
 .ui-radio * { box-sizing: border-box; }
 .ui-radio .radio-wrap { position: relative; display: inline-block; min-width: 18px; min-height: 18px; width: 1em; height: 1em; border-radius: 50%; vertical-align: middle; }
 .ui-radio .radio-input { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .ui-radio .label-wrap { display: inline-block; white-space: nowrap; cursor: pointer; }
+
 .ui-radio .label,
 .ui-radio .label-wrap .radio-wrap { vertical-align: middle; }
 .ui-radio .label { display: inline-block; margin-left: 10px; white-space: normal; }
@@ -18,5 +20,6 @@
 .ui-radio .radio-input:checked + .custom-holder { border-width: 1px; border: 0.3em solid var(--color-primary-dark, #068932); background-color: var(--card-shadow-1, #fff); }
 .ui-radio .radio-input:checked + .custom-holder.inset { box-shadow: none; }
 .ui-radio .radio-input:disabled + .custom-holder { opacity: 0.5; }
+
 .keyboard-active .ui-radio .radio-input:focus + .custom-holder,
 .keyboard-active .ui-radio .radio-input:focus:checked + .custom-holder { outline: 3px solid #075c8e; outline-offset: 3px; }

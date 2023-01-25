@@ -1,6 +1,8 @@
 @font-face { font-family: UIKitIcon; src: url(UIKitIcon-6940656c5e.eot); src: url(UIKitIcon-6940656c5e.eot?#iefix) format("eot"), url(UIKitIcon-cbfa9dabbc.woff2) format("woff2"), url(UIKitIcon-a336d1169f.woff) format("woff"), url(UIKitIcon-fe8cada67a.ttf) format("truetype"), url(UIKitIcon-6bd4a97c12.svg#font) format("svg"); font-weight: 400; font-style: normal; }
+
 [class*=" ui-icon-"],
 [class^=ui-icon-] { display: inline-block; vertical-align: middle; }
+
 .ui-icon,
 [class*=" ui-icon-"]::before,
 [class^=ui-icon-]::before { font-family: UIKitIcon; font-style: normal; font-weight: 400; speak: none; display: block; text-decoration: inherit; width: 1em; margin-right: 0.2em; text-align: center; font-variant: normal; text-transform: none; line-height: 1em; margin-left: 0.2em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -233,150 +235,204 @@
 .ui-icon-zip-file::before { content: "\EADD"; }
 :root { --color-primary: #1ba94c; --color-primary-dark: #068932; --color-error: #d11534; --color-bg: #f3f7f7; --color-bg-2: #e7eeef; --color-white: #fff; --color-link: #097bbf; --color-shade-lighter: #f3f7f7; --color-shade-lighter-2: #f3f7f7; --color-shade-light: #e7eeef; --color-shade-medium: #b7c9cc; --color-shade-medium-2: #b7c9cc; --color-shade-dark: #738f93; --color-shade-darker: #0e141e; --color-text-light: #b7c9cc; --color-text-medium-dark: #39424e; --color-text-dark: #0e141e; --color-text-dark-faded: #576871; --modal-overlay-color: rgba(231, 238, 239, 0.9); --active-tab-color: #000; --select-border-color: #b3b3b3; --shadow-border: 0.1px 1px 4px 0 #e7eeef; --card-shadow-1: #fff; --card-shadow-2: #fff; }
 .theme-dark { --color-primary: #32c766; --color-primary-dark: #32c766; --color-error: #e25147; --color-bg: #050c1b; --color-bg-2: #2e3441; --color-white: #050c1b; --color-link: #40c1e8; --color-shade-lighter: #111827; --color-shade-lighter-2: #1d2432; --color-shade-light: #1d2432; --color-shade-medium: #585d68; --color-shade-medium-2: #2e3441; --color-shade-dark: #8c96a6; --color-shade-darker: #eef4fc; --color-text-light: rgba(212, 228, 249, 0.2); --color-text-medium-dark: #deeafa; --color-text-dark: #d4e4f9; --color-text-dark-faded: #b5c0d0; --modal-overlay-color: rgba(0, 0, 0, 0.7); --active-tab-color: #f3f7f7; --select-border-color: #585d68; --card-shadow-1: #111827; --card-shadow-2: #1d2432; --shadow-border: 0.1px 1px 4px 0 #1d2432; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit,
 .ui-btn { position: relative; display: inline-block; height: 40px; outline-width: 0; border: none; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.5s ease; transition-property: box-shadow, background, color, border; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit,
 .ui-btn.ui-btn-styled { color: var(--color-btn-default-text, #fff); padding-right: 20px; padding-left: 20px; border-radius: 5px; }
+
 .hr-monaco-editor-wrapper .ui-btn-plain.hr-monaco-submit,
 .ui-btn.ui-btn-plain { font-weight: 400; font-family: Arial, Helvetica, sans-serif; font-family: var(--font-family-text); padding: 0; border-radius: 0; background: none; box-shadow: none; color: inherit; word-spacing: normal; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:active,
 .hr-monaco-editor-wrapper .hr-monaco-submit:focus,
 .ui-btn:active,
 .ui-btn:focus { outline-width: 0; }
+
 .hr-monaco-editor-wrapper .keyboard-active .hr-monaco-submit:focus,
 .keyboard-active .hr-monaco-editor-wrapper .hr-monaco-submit:focus,
 .keyboard-active .ui-btn:focus { outline-width: 3px; outline-style: solid; border-color: #fff; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-btn-loading,
 .ui-btn .ui-btn-loading { position: absolute; top: 50%; right: 10px; transform: translateY(-50%); }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-btn-icon,
 .ui-btn .ui-btn-icon { font-size: 1.4em; line-height: 0; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-btn-icon::before,
 .ui-btn .ui-btn-icon::before { margin: 0; vertical-align: middle; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit,
 .ui-btn.ui-btn-primary { border: 1px solid #179342; background-color: var(--color-primary); color: var(--color-white); }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:hover,
 .ui-btn.ui-btn-primary:hover { box-shadow: 0 4px 8px 0 rgba(27, 169, 76, 0.4); }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:active,
 .ui-btn.ui-btn-primary:active { background: #147d38; box-shadow: none; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:not(:disabled) rect.loader-piece,
 .ui-btn.ui-btn-primary:not(:disabled) rect.loader-piece { fill: #fff; }
+
 .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit,
 .ui-btn.ui-btn-danger { border: 1px solid #f53a21; background: #f65039; }
+
 .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit:hover,
 .ui-btn.ui-btn-danger:hover { box-shadow: 0 4px 8px 0 rgba(246, 80, 57, 0.4); }
+
 .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit:active,
 .ui-btn.ui-btn-danger:active { background: #f1270b; box-shadow: none; }
+
 .hr-monaco-editor-wrapper .ui-btn-default.hr-monaco-submit,
 .ui-btn.ui-btn-default { border: 1px solid #d2d8dd; background: #eff1f3; color: #626b7f; }
+
 .hr-monaco-editor-wrapper .ui-btn-default.hr-monaco-submit:not(:disabled):hover,
 .ui-btn.ui-btn-default:not(:disabled):hover { box-shadow: 0 4px 8px 0 rgba(210, 216, 221, 0.4); }
+
 .hr-monaco-editor-wrapper .ui-btn-default.hr-monaco-submit:not(:disabled):active,
 .ui-btn.ui-btn-default:not(:disabled):active { background: #d2d8dd; box-shadow: none; }
+
 .hr-monaco-editor-wrapper .ui-btn-dark.hr-monaco-submit,
 .ui-btn.ui-btn-dark { border: 1px solid #2e363f; background: #39424e; }
+
 .hr-monaco-editor-wrapper .ui-btn-dark.hr-monaco-submit:hover,
 .ui-btn.ui-btn-dark:hover { box-shadow: 0 4px 8px 0 rgba(57, 66, 78, 0.4); }
+
 .hr-monaco-editor-wrapper .ui-btn-dark.hr-monaco-submit:active,
 .ui-btn.ui-btn-dark:active { background: #232931; box-shadow: none; }
+
 .hr-monaco-editor-wrapper .has-loader.hr-monaco-submit,
 .ui-btn.has-loader { padding-right: 40px; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-content,
 .ui-btn .ui-content { display: flex; align-items: center; justify-content: center; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-content .ui-text,
 .ui-btn .ui-content .ui-text { order: 1; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-content.has-icon.align-icon-left .ui-btn-icon,
 .ui-btn .ui-content.has-icon.align-icon-left .ui-btn-icon { order: 0; margin-right: 10px; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit .ui-content.has-icon.align-icon-right .ui-btn-icon,
 .ui-btn .ui-content.has-icon.align-icon-right .ui-btn-icon { order: 2; margin-left: 10px; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:disabled,
 .ui-btn.ui-btn-styled:disabled { transition: none; }
+
 .hr-monaco-editor-wrapper .hr-monaco-submit:disabled,
 .hr-monaco-editor-wrapper .hr-monaco-submit:disabled:active,
 .hr-monaco-editor-wrapper .hr-monaco-submit:disabled:hover,
 .ui-btn.ui-btn-styled:disabled,
 .ui-btn.ui-btn-styled:disabled:active,
 .ui-btn.ui-btn-styled:disabled:hover { border: none; background: #eff1f3; box-shadow: none; color: #979faf; cursor: not-allowed; }
+
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit,
 .ui-btn.ui-btn-link { color: var(--color-white); }
+
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit:active,
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit:focus,
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit:hover,
 .ui-btn.ui-btn-link:active,
 .ui-btn.ui-btn-link:focus,
 .ui-btn.ui-btn-link:hover { text-decoration: none; }
+
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit[disabled],
 .ui-btn.ui-btn-link[disabled] { pointer-events: none; }
+
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit[disabled],
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit[disabled]:active,
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit[disabled]:hover,
 .ui-btn.ui-btn-link[disabled],
 .ui-btn.ui-btn-link[disabled]:active,
 .ui-btn.ui-btn-link[disabled]:hover { border: none; background: #eff1f3; box-shadow: none; color: #979faf; cursor: not-allowed; }
+
 .hr-monaco-editor-wrapper .ui-btn-link.hr-monaco-submit .ui-content,
 .ui-btn.ui-btn-link .ui-content { height: 100%; }
+
 .hr-monaco-editor-wrapper .ui-btn-link.ui-btn-default.hr-monaco-submit,
 .ui-btn.ui-btn-link.ui-btn-default { color: #626b7f; }
+
 .hr-monaco-editor-wrapper .theme-m .keyboard-active .hr-monaco-submit:focus,
 .theme-m .keyboard-active .hr-monaco-editor-wrapper .hr-monaco-submit:focus,
 .theme-m .keyboard-active .ui-btn:focus { border-color: var(--color-btn-focus-border, #fff); }
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .hr-monaco-submit,
 .theme-m .ui-btn { font-size: 15px; }
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .hr-monaco-submit,
 .theme-m .ui-btn-styled { font-weight: 700; font-family: monaco, Courier, monospace; font-family: var(--font-family-input); border-radius: 2px; word-spacing: -2px; }
 
-@media screen and (min-width: 768px) { .hr-monaco-editor-wrapper .theme-m .ui-btn-large.hr-monaco-submit,
+@media screen and (min-width: 768px) {
+  .hr-monaco-editor-wrapper .theme-m .ui-btn-large.hr-monaco-submit,
   .theme-m .hr-monaco-editor-wrapper .ui-btn-large.hr-monaco-submit,
-  .theme-m .ui-btn.ui-btn-large { height: 56px; font-size: 18px; } }
+  .theme-m .ui-btn.ui-btn-large { height: 56px; font-size: 18px; }
+}
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .hr-monaco-submit,
 .theme-m .ui-btn.ui-btn-primary { background-color: var(--color-btn-primary-bg, var(--color-primary)); border-color: var(--color-btn-primary-bg, var(--color-primary)); box-shadow: 0 4px 12px 0 rgba(var(--shadow-btn-primary, 27, 169, 76), 0.5); }
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit:hover,
 .theme-m .hr-monaco-editor-wrapper .hr-monaco-submit:hover,
 .theme-m .ui-btn.ui-btn-primary:hover { box-shadow: 0 3px 6px 0 rgba(var(--shadow-btn-primary, 27, 169, 76), 0.4); }
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .hr-monaco-submit:active,
 .theme-m .ui-btn.ui-btn-primary:active { box-shadow: none; }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-secondary.hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-secondary.hr-monaco-submit,
 .theme-m .ui-btn.ui-btn-secondary { background-color: var(--color-btn-secondary-bg, var(--card-shadow-2)); color: var(--color-btn-secondary-text, var(--color-text-medium-dark)); box-shadow: 0 3px 10px 0 rgba(var(--shadow-btn-secondary, 0, 0, 0), 0.1); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-secondary.hr-monaco-submit:focus,
 .hr-monaco-editor-wrapper .theme-m .ui-btn-secondary.hr-monaco-submit:hover,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-secondary.hr-monaco-submit:focus,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-secondary.hr-monaco-submit:hover,
 .theme-m .ui-btn.ui-btn-secondary:focus,
 .theme-m .ui-btn.ui-btn-secondary:hover { box-shadow: 0 2px 6px 0 rgba(var(--shadow-btn-secondary, 0, 0, 0), 0.05); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-secondary.hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-secondary.hr-monaco-submit:active,
 .theme-m .ui-btn.ui-btn-secondary:active { box-shadow: 0 1px 3px 0 rgba(var(--shadow-btn-secondary, 0, 0, 0), 0); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-danger.hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit,
 .theme-m .ui-btn.ui-btn-danger { background-color: var(--color-btn-danger-bg, #d11534); color: var(--color-btn-default-text, #fff); border-color: var(--color-btn-danger-bg, #d11534); box-shadow: 0 4px 12px 0 rgba(var(--shadow-btn-danger, 209, 21, 52), 0.5); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-danger.hr-monaco-submit:hover,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit:hover,
 .theme-m .ui-btn.ui-btn-danger:hover { box-shadow: 0 3px 6px 0 rgba(var(--shadow-btn-danger, 209, 21, 52), 0.4); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-danger.hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-danger.hr-monaco-submit:active,
 .theme-m .ui-btn.ui-btn-danger:active { box-shadow: none; }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line.hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line.hr-monaco-submit,
 .theme-m .ui-btn.ui-btn-line { background-color: var(--color-btn-line-bg, transparent); color: var(--color-btn-line-text, #738f93); border-color: var(--color-shade-light, #e7eeef); border: 1px solid var(--color-btn-line-border, var(--color-shade-light, #e7eeef)); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line.hr-monaco-submit:active,
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line.hr-monaco-submit:hover,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line.hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line.hr-monaco-submit:hover,
 .theme-m .ui-btn.ui-btn-line:active,
 .theme-m .ui-btn.ui-btn-line:hover { color: var(--color-btn-line-hover-text, var(--color-text-medium-dark)); border-color: var(--color-btn-line-hover-border, var(--color-shade-medium, #b7c9cc)); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line.hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line.hr-monaco-submit:active,
 .theme-m .ui-btn.ui-btn-line:active { background-color: var(--color-btn-line-active-bg, var(--color-shade-lighter)); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line-primary.hr-monaco-submit,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line-primary.hr-monaco-submit,
 .theme-m .ui-btn.ui-btn-line-primary { background-color: var(--color-btn-line-primary-bg, transparent); color: var(--color-btn-line-primary-text, var(--color-primary)); border-color: var(--color-primary); border: 1px solid var(--color-btn-line-primary-border, var(--color-primary)); }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-line-primary.hr-monaco-submit:active,
 .theme-m .hr-monaco-editor-wrapper .ui-btn-line-primary.hr-monaco-submit:active,
 .theme-m .ui-btn.ui-btn-line-primary:active { background-color: var(--color-btn-line-primary-active-bg, var(--color-shade-lighter)); }
+
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit:disabled,
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit:disabled:active,
 .hr-monaco-editor-wrapper .theme-m .hr-monaco-submit:disabled:hover,
@@ -386,6 +442,7 @@
 .theme-m .ui-btn-styled:disabled,
 .theme-m .ui-btn-styled:disabled:active,
 .theme-m .ui-btn-styled:disabled:hover { background-color: var(--color-btn-disabled-bg, var(--color-shade-light)); color: var(--color-btn-disabled-text, var(--color-text-light)); border: 0; box-shadow: none; }
+
 .hr-monaco-editor-wrapper .theme-m .ui-btn-link.hr-monaco-submit[disabled],
 .hr-monaco-editor-wrapper .theme-m .ui-btn-link.hr-monaco-submit[disabled]:active,
 .hr-monaco-editor-wrapper .theme-m .ui-btn-link.hr-monaco-submit[disabled]:hover,
@@ -412,6 +469,7 @@
 .hr-monaco-editor-wrapper .theme-change-helper .theme-change-helper-arrow::after { background-color: #e7eeef; }
 .hr-monaco-editor-wrapper .hr-monaco-editor-with-statusbar { box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2); border: 0; border-top: 1px solid #e7eeef; border-top: 1px solid var(--color-shade-light); background-color: #f3f7f7; background-color: var(--color-shade-lighter); }
 .hr-monaco-editor-wrapper .inline { display: inline; }
+
 .hr-monaco-editor-wrapper .inline > a,
 .hr-monaco-editor-wrapper .inline > div,
 .hr-monaco-editor-wrapper .inline > li { display: inline-block; }
@@ -432,16 +490,19 @@
 .hr-monaco-editor-wrapper .hr-monaco-editor .hr-monaco-loading-language { background: #f3f7f7; }
 .hr-monaco-editor-wrapper .hr-monaco-editor .hr-monaco-loading-text { color: #576871; font-weight: 700; font-size: 26px; font-family: monospace; }
 .hr-monaco-editor-wrapper .hr-monaco-editor-statusbar { padding: 10px; border-top: 1px solid #e7eeef; border-top: 1px solid var(--color-shade-medium); }
+
 .hr-monaco-editor-wrapper .hr-monaco-editor-statusbar .statusbar-message,
 .hr-monaco-editor-wrapper .hr-monaco-editor-statusbar .statusbar-position { color: #738f93; color: var(--color-shade-dark); font-family: monospace; }
 .hr-monaco-editor-wrapper .hr-monaco-compile { color: #0e141e; font-weight: 700 !important; }
 .hr-monaco-editor-wrapper .hr-monaco-submit { font-weight: 700 !important; }
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper { align-items: flex-start; display: flex; flex-flow: row wrap; }
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .checkbox-input { box-sizing: border-box; outline: none; border: 1px solid transparent; background: #e7eeef; }
+
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .checkbox-input:active,
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .checkbox-input:focus { border: 1px solid var(--color-shade-medium); }
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .label { color: #738f93; font-weight: 700; font-size: 12px; }
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .custominput { display: block; box-sizing: border-box; margin: 20px 0; outline: none; border: 2px solid transparent; background-color: #e7eeef; background-color: var(--color-bg-2); color: #0e141e; color: var(--color-text-dark); }
+
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .custominput:active,
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .custominput:focus { border: 1px solid var(--color-shade-medium); }
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .upload-file { outline: none; border: 0; background: transparent !important; box-shadow: none; color: #738f93 !important; font-weight: 700 !important; font-size: 12px !important; cursor: pointer; font-weight: 400; font-family: Arial, Helvetica, sans-serif; font-family: var(--font-family-text); }
@@ -449,12 +510,14 @@
 .hr-monaco-editor-wrapper .hr-monaco-custom-input-wrapper .ui-icon-upload { display: inline-block; margin-right: 5px; vertical-align: top; font-size: 14px; }
 .hr-monaco-editor-wrapper .icon-grey { color: var(--color-shade-dark, #738f93); }
 .hr-monaco-editor-wrapper .icon-grey:hover { color: var(--color-text-dark, #0e141e); }
+
 .hr-monaco-editor-wrapper .maximize-icon,
 .hr-monaco-editor-wrapper .minimize-icon,
 .hr-monaco-editor-wrapper .settings-icon { margin-top: 5px; font-size: 18px; }
 .hr-monaco-editor-wrapper .maximize-icon::before { margin-left: 0; }
 .hr-monaco-editor-wrapper .hr-monaco-settings-editor { margin-right: 20px; }
 .hr-monaco-editor-wrapper .hr-monaco-settings-editor .ui-icon-btn { width: 20px; height: 20px; }
+
 .hr-monaco-editor-wrapper .hr-monaco-settings-editor .hr-monaco-submit,
 .hr-monaco-editor-wrapper .hr-monaco-settings-editor .ui-btn { float: left; padding: 5px 10px; width: auto; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; outline: none; border: 0; border-right: 1px solid var(--color-shade-medium); background: transparent; box-shadow: none; color: var(--color-text-dark, #0e141e); text-align: center; font-weight: 400; font-size: 15px; }
 .hr-monaco-editor-wrapper .hr-monaco-settings-editor .settings-toggle { margin-top: 5px; color: #738f93; }
@@ -462,10 +525,13 @@
 .hr-monaco-editor-wrapper .hr-monaco-pref-pane .pref-pane-arrow { border-bottom-color: var(--color-white, #fff); }
 .hr-monaco-editor-wrapper .hr-monaco-pref-pane .formgroup { display: flex; margin: 20px 0; align-items: center; }
 .hr-monaco-editor-wrapper .hr-monaco-pref-pane .hr-monaco-formgroup-label { margin-left: 2%; width: 30%; font-weight: 700; font-size: 14px; }
+
 .hr-monaco-editor-wrapper .btn-group,
 .hr-monaco-editor-wrapper .ui-btn-group { border: 1px solid var(--color-shade-medium); border-radius: 3px; white-space: nowrap; }
+
 .hr-monaco-editor-wrapper .btn-group .btn,
 .hr-monaco-editor-wrapper .ui-btn-group .btn { float: left; padding: 5px 10px; width: auto; outline: none; border: 0; border-right: 1px solid var(--color-shade-medium); background: transparent; box-shadow: none; color: var(--color-text-dark, #0e141e); text-align: center; font-size: 15px; }
+
 .hr-monaco-editor-wrapper .btn-group .btn-primary,
 .hr-monaco-editor-wrapper .btn-group .hr-monaco-submit,
 .hr-monaco-editor-wrapper .btn-group .ui-btn-primary,

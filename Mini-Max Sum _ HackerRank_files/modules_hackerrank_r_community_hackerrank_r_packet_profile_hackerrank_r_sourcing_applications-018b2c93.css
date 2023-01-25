@@ -5,11 +5,13 @@
 .ui-badge .badge-title { fill: #39424e; text-anchor: middle; }
 .ui-badge .star { fill: #39424e; }
 .ui-badge .star-count { text-anchor: end; fill: #39424e; }
+
 .ui-badge .badge-title,
 .ui-badge .star-count { font-weight: 600; font-family: AvenirNext-Medium, Segoe UI, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; }
 .ui-badge .stars-wrap { position: absolute; display: flex; height: 10%; align-items: center; }
 .ui-badge .star-number-wrap { height: 100%; }
 .ui-badge .star-number { font-size: 12px; fill: #39424e; }
+
 .ui-badge.level-none .badge-icon,
 .ui-badge.level-none .badge-title { opacity: 0.35; }
 .ui-badge.level-none .badge-star { opacity: 0.15; }

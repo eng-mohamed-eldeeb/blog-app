@@ -4,8 +4,10 @@
 #hr-initial-loading .loading-msg { margin-top: 10px; font-weight: 600; font-size: 24px; }
 
 @font-face { font-family: UIKitIcon; src: url(UIKitIcon-6940656c5e.eot); src: url(UIKitIcon-6940656c5e.eot?#iefix) format("eot"), url(UIKitIcon-cbfa9dabbc.woff2) format("woff2"), url(UIKitIcon-a336d1169f.woff) format("woff"), url(UIKitIcon-fe8cada67a.ttf) format("truetype"), url(UIKitIcon-6bd4a97c12.svg#font) format("svg"); font-weight: 400; font-style: normal; }
+
 [class*=" ui-icon-"],
 [class^=ui-icon-] { display: inline-block; vertical-align: middle; }
+
 .ui-icon,
 [class*=" ui-icon-"]::before,
 [class^=ui-icon-]::before { font-family: UIKitIcon; font-style: normal; font-weight: 400; speak: none; display: block; text-decoration: inherit; width: 1em; margin-right: 0.2em; text-align: center; font-variant: normal; text-transform: none; line-height: 1em; margin-left: 0.2em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

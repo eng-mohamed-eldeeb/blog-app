@@ -3,6 +3,7 @@
 .ui-icon-btn:disabled { box-shadow: none; color: #b7c9cc; cursor: not-allowed; }
 .ui-icon-btn:focus { outline-width: 0; }
 .ui-icon-btn:not(:disabled):hover { background-color: rgba(0, 0, 0, 0.05); }
+
 .ui-icon-btn:not(:disabled):active,
 .ui-icon-btn:not(:disabled):focus { background-color: rgba(0, 0, 0, 0.15); }
 .ui-icon-btn[data-balloon]::after { line-height: normal; }
