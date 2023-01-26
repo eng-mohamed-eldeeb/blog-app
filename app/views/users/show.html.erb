@@ -1,8 +1,10 @@
 <img src=<%= @user.photo %>>
 <p><%= @user.name%></p>
 <p><%= @user.posts_counter%></p>
+<h3>Bio</h3>
 <p><%= @user.bio%></p>
-<%= @posts.each do |post|%>
+<%= @posts.each_with_index do |post ,index|%>
+<h3>Posts <%= index + 1 %></h3>
 <p><%= post.title%></p>
 <p><%= post.text%></p>
 <p><%= post.comments_counter%></p>

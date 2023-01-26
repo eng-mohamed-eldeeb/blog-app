@@ -1,1 +1,18 @@
-<h1>a user posts</h1>
+
+<%= @user.name %>
+<% @posts.each do |post|%>
+<p>
+<%= post.title %>
+</p>
+<p>
+<%= post.text%>
+<div>
+<h2> Post Comments </h2>
+<% comentes = Comment.where(post_id: post.id) %>
+<% comentes.each do |comment|%>
+    <% user = User.find(comment.author_id) %>
+    <p><%=user.name%>: <%=comment.text%></p>
+<% end %>
+</div>
+</p>
+<% end %>
