@@ -12,6 +12,8 @@
 <% comentes.each do |comment|%>
     <% user = User.find(comment.author_id) %>
     <p><%=user.name%>: <%=comment.text%></p>
+<%= link_to "view", user_post_path(@user, post) %>
+
 <% end %>
 </div>
 </p>

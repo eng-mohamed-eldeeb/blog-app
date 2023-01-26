@@ -1,1 +1,9 @@
-<h1>Here is a single post for certain user</h1>
+<h1><%= @post.title %></h1>
+<h1><%= @post.text %></h1>
+<h1><%= @post.likes_counter %></h1>
+<h1><%= @post.comments_counter %></h1>
+<h1>Comments</h1>
+<% @post.comments.each do |comment| %>
+    <%user = User.find(comment.author_id)%>
+  <h2><%= user.name %>: <%= comment.text %></h2>
+<% end %>
