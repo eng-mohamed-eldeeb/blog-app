@@ -6,10 +6,10 @@
                 <img src='<%= user.photo %>'>
             </div>
             
-        <div class="userDetails bg-[#2B3A55] rounded-[30px] flex-grow text-white flex justify-between items-center p-[30px]">
+        <a class="userDetails bg-[#2B3A55] rounded-[30px] flex-grow text-white flex justify-between items-center p-[30px]" href="users/<%= user.id %>">
           <h2 class="text-[40px] font-[600]"><%= user.name %></h2>
           <p class="self-end text-[20px] font-[400]">Number of posts: <%= user.posts_counter %></p>
-        </div>
+        </a>
         </a>
     </li>
 <%end%>
