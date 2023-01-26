@@ -1,1 +1,11 @@
-<h1>Here is data and posts for certain user</h1>
+<img src=<%= @user.photo %>>
+<p><%= @user.name%></p>
+<p><%= @user.posts_counter%></p>
+<p><%= @user.bio%></p>
+<%= @posts.each do |post|%>
+<p><%= post.title%></p>
+<p><%= post.text%></p>
+<p><%= post.comments_counter%></p>
+<p><%= post.likes_counter%></p>
+<% end %>
+<%= link_to 'See all posts',  user_posts_path(@user) %>
