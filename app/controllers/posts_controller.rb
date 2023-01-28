@@ -1,11 +1,33 @@
 class PostsController < ApplicationController
   def index
-    @posts = Post.all
-    @user = User.find_by(id: params[:user_id])
+    @user = User.find(params[:user_id])
+    @posts = @user.posts
+    @comments = Comment.new
+  end
+  
+  def show
+    @user = User.find(params[:user_id])
+    @post = @user.posts.find_by_id(params[:id])
+    @comments = @post.comments
+  end
+  
+  def new
+    @user = User.find(params[:user_id])
+    @post = Post.new
   end
 
-  def show
-    @post = Post.find(params[:id])
-    @comments = @post.most_recent_comments
+  def create
+    @post = current_user.posts.new(post_params)
+    if @post.save
+      redirect_to root_path notice: 'Post created successfully'
+    else
+      render :new
+    end
+  end
+
+  private
+
+  def post_params
+    params.require(:post).permit(:title, :text)
   end
 end
