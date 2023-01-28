@@ -22,6 +22,7 @@
   <p class="text-md text-center font-medium"><%= comment.author.name %>: <%= comment.text %></p>
   </div>
 <% end %>
+<%= link_to "add comment", new_post_comment_path(@post) %>
 </div>
 </div>
 </div>
