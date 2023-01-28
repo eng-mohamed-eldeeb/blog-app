@@ -4,14 +4,14 @@ class PostsController < ApplicationController
     @posts = @user.posts
     @comments = Comment.new
   end
-  
+
   def show
     @user = User.find(params[:user_id])
     @post = @user.posts.find_by_id(params[:id])
     @like = Like.new
     @comments = @post.comments
   end
-  
+
   def new
     @user = User.find(params[:user_id])
     @post = Post.new
