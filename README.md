@@ -94,9 +94,13 @@ You can deploy this project using:
 
 
 ## 👥 Authors
+
+- Mohamed El-Deeb
 - GitHub: [@eldeeb](https://github.com/eng-mohamed-eldeeb)
 - LinkedIn: [@eldeeb](https://www.linkedin.com/in/eng-mohamed-eldeeb/)
 
+- Peter
+-GitHub: [@peter](https://github.com/Peter1907)
 
 <!-- FUTURE FEATURES -->
 
