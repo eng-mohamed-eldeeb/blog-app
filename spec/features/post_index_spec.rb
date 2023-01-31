@@ -38,7 +38,6 @@ RSpec.describe 'Post', type: :feature do
     expect(page).to have_content('This is my first post')
     expect(page).to have_content('This is my second post')
     expect(page).to have_content('This is my third post')
-    expect(page).to have_content('This is my fourth post')
   end
 
   it 'can display the first comment for the post' do
@@ -49,6 +48,11 @@ RSpec.describe 'Post', type: :feature do
   it 'can display the number of comments for the post' do
     visit user_posts_path(@user)
     expect(page).to have_content('comments: 1')
+  end
+
+  it 'can display pagination links if there are more than 3 posts' do
+    visit user_posts_path(@user)
+    expect(page).to have_selector('#pagination')
   end
 
   it 'can show how many likes the post has' do
