@@ -1,140 +1,150 @@
+# 📗 Table of Contents
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Blog App ]
+# 📖 [rails blog app] <a name="about-project"></a>
 
-> The Blog app will be a classic example of a blog website. 
+> In this project you can sign in, create a post, comment on other users posts, and like the posts
 
-**[Blog App]** This project is about developing fully functional blog app website. Created using Ruby on Rails, it allows users to create, modify and display posts. It also allows users to read, post and like comments..
+**[Ruby on Rails blog app]** is a...
 
-### Tech Stack
+## 🛠 Built With <a name="built-with"></a>
 
-> The tech stack for building this project was Ruby on Rails
+### Tech Stack <a name="tech-stack"></a>
 
-<!-- Features -->
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-### Key Features
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">ruby</a></li>
+    <li><a href="https://reactjs.org/">rails</a></li>
+    <li><a href="https://reactjs.org/">postgresql</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[Adding Comments]**
-- **[Adding Posts]**
-- **[Liking a Post]**
+- **[test]**
 
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo
-
-> Comming Soom!!!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started 
+## 💻 Getting Started <a name="getting-started"></a>
 
-> In order to run this project you need to run the following commands in your terminal:Ensure you cd into the directory in which you had clone the project into.
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-```sh
- gem install rails
-```
+
+1- ruby
+2- rails
+3- postgresql
+4- capybara
+
 ### Setup
 
 Clone this repository to your desired folder:
-```sh
-  cd blog-app
-  git clone https://github.com/Ukaypromise/blog-app.git
-```
+
+1- ruby v 3.1.3
+2- rails
+
 ### Install
 
-1. installing gems
+Install this project with:
 
-```sh
-  bundle install
-```
-
-2. configure database
-
-```sh
-   rails db:create
-   rails db:migrate
-```
+bundle install
 
 ### Usage
 
 To run the project, execute the following command:
-```sh
-  rails server
-```
+
+rails s
+
 ### Run tests
 
 To run tests, run the following command:
-```sh
-  bin/rails test test/models/article_test.rb
-```
-### Deployment
 
-You can deploy this project using:
-- [Heroku](https://www.heroku.com/)
-- [Netlify](https://www.netlify.com/)
+1- run bundle install
+2- rspec spec
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors
-- GitHub: [@eldeeb](https://github.com/eng-mohamed-eldeeb)
-- LinkedIn: [@eldeeb](https://www.linkedin.com/in/eng-mohamed-eldeeb/)
+<!-- AUTHORS -->
 
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Mohamed El-Deeb**
+
+- GitHub: [@githubhandle](https://github.com/eng-mohamed-eldeeb)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eng-mohamed-eldeeb/)
+
+👤 **Peter**
+
+- GitHub: [@githubhandle](https://github.com/Peter1907)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **processing data in models**
-- [ ] **validations and model specs.**
+- [ ] **[authorization]**
+- [ ] **[authorization]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing">Peter</a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support
+<!-- SUPPORT -->
 
-If you like this project please give it a ⭐️!
+## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-## 🙏 Acknowledgments
+If you like this project...
 
-I would like to thank @microverse for giving me the opportunity to work on this project.
-
-- **[How to get Started with Ruby on Rails]**
-
-  - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

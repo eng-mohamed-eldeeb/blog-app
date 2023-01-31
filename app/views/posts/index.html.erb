@@ -32,5 +32,6 @@
       </li>
     <% end %>
   </ul>
+  <%= will_paginate @posts, class: "self-center space-x-8 text-3xl", id: "pagination" %>
   <a href="<%= new_user_post_path(@user) %>" class="self-center text-white text-xl font-medium bg-[#11537d] p-[20px] rounded-[15px] w-fit">Add new post</a>
 </div
