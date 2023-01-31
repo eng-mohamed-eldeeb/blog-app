@@ -11,7 +11,7 @@
     </a>
   </div>
   <ul class="userCards flex flex-col gap-8">
-    <% @user.posts.each do |post| %>
+    <% @posts.each do |post| %>
       <li class="postCard border-4 border-blue-500 rounded-[20px] p-2">
         <a href="<%= user_post_path(@user, post) %>" class="flex flex-col gap-8 post_link">
           <div class="postDetails bg-[#11537d] rounded-[30px] flex-grow text-white flex flex-col p-[30px]">
@@ -32,5 +32,6 @@
       </li>
     <% end %>
   </ul>
+  <%= will_paginate @posts, class: "self-center space-x-8 text-3xl" %>
   <a href="<%= new_user_post_path(@user) %>" class="self-center text-white text-xl font-medium bg-[#11537d] p-[20px] rounded-[15px] w-fit">Add new post</a>
 </div
