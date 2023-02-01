@@ -76,5 +76,6 @@ group :test do
 end
 # gem 'rspec-rails', '~> 6.0'
 
+gem 'devise'
 gem 'rails-controller-testing', '~> 1.0'
 gem 'will_paginate', '~> 3.3'
