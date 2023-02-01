@@ -63,6 +63,7 @@ In order to run this project you need:
 2- rails
 3- postgresql
 4- capybara
+5- mailcatcher (to confirm email in registration)
 
 ### Setup
 
@@ -74,6 +75,8 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
+
+gem install mailcatcher & refer to the<a href="https://mailcatcher.me/">docs</a> for more instructions
 
 bundle install
 
